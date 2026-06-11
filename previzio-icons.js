@@ -2,7 +2,7 @@
  * previzio-weather-icons — helper léger pour résoudre une icône à partir d'un code WMO.
  *
  * Usage :
- *   import { iconPath, ICON_INDEX } from "./wmo-icons.js";
+ *   import { iconPath, ICON_INDEX } from "./previzio-icons.js";
  *   const url = iconPath(61, "day"); // -> "icons/61-day.svg"
  */
 import index from "./index.json" assert { type: "json" };
