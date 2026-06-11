@@ -1,6 +1,6 @@
 {
   "name": "previzio-weather-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "viewBox": "0 0 56 56",
   "icons": {
     "0": {
@@ -154,15 +154,15 @@
       "label": "Averses modérées",
       "category": "Averses",
       "day": "81-day.svg",
-      "hasNightVariant": false,
-      "night": "81-day.svg"
+      "hasNightVariant": true,
+      "night": "81-night.svg"
     },
     "82": {
       "label": "Averses violentes",
       "category": "Averses",
       "day": "82-day.svg",
-      "hasNightVariant": false,
-      "night": "82-day.svg"
+      "hasNightVariant": true,
+      "night": "82-night.svg"
     },
     "85": {
       "label": "Averses de neige légères",
@@ -175,8 +175,8 @@
       "label": "Averses de neige fortes",
       "category": "Averses neige",
       "day": "86-day.svg",
-      "hasNightVariant": false,
-      "night": "86-day.svg"
+      "hasNightVariant": true,
+      "night": "86-night.svg"
     },
     "95": {
       "label": "Orage",

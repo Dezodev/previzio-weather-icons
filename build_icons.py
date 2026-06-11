@@ -141,14 +141,17 @@ ICONS = {
         day=sun(17,16,7,4)+cloud('cloudDark',31,26,0.95)+drop(25,42,49,2.4,"rainDrop")+drop(35,42,49,2.4,"rainDrop"),
         night=stars(STsm)+moon(17,15,8)+cloud('cloudNightDark',31,26,0.95)+drop(25,42,49,2.4,"rainDrop")+drop(35,42,49,2.4,"rainDrop")),
  81:dict(cat="Averses",label="Averses modérées",
-        day=cloud('cloudDark',28,19,1.05)+drop(19,35,46,2.6,"rainDrop")+drop(28,35,46,2.6,"rainDrop")+drop(37,35,46,2.6,"rainDrop")),
+        day=cloud('cloudDark',28,19,1.05)+drop(19,35,46,2.6,"rainDrop")+drop(28,35,46,2.6,"rainDrop")+drop(37,35,46,2.6,"rainDrop"),
+        night=cloud('cloudNightDark',28,19,1.05)+drop(19,35,46,2.6,"rainDrop")+drop(28,35,46,2.6,"rainDrop")+drop(37,35,46,2.6,"rainDrop")),
  82:dict(cat="Averses",label="Averses violentes",
-        day=cloud('cloudStorm',28,19,1.1)+drop(16,35,49,3.2,"rainDeep")+drop(24,35,49,3.2,"rainDeep")+drop(32,35,49,3.2,"rainDeep")+drop(40,35,49,3.2,"rainDeep")),
+        day=cloud('cloudStorm',28,19,1.1)+drop(16,35,49,3.2,"rainDeep")+drop(24,35,49,3.2,"rainDeep")+drop(32,35,49,3.2,"rainDeep")+drop(40,35,49,3.2,"rainDeep"),
+        night=cloud('cloudStorm',28,19,1.1)+drop(16,35,49,3.2,"rainDeep")+drop(24,35,49,3.2,"rainDeep")+drop(32,35,49,3.2,"rainDeep")+drop(40,35,49,3.2,"rainDeep")),
  85:dict(cat="Averses neige",label="Averses de neige légères",
         day=sun(17,16,7,4)+cloud('cloudMid',31,26,0.95)+flake(26,44,3.8,"#6FBEDE")+flake(37,46,3.8,"#6FBEDE"),
         night=stars(STsm)+moon(17,15,8)+cloud('cloudNightMid',31,26,0.95)+flake(26,44,3.8,"#6FBEDE")+flake(37,46,3.8,"#6FBEDE")),
  86:dict(cat="Averses neige",label="Averses de neige fortes",
-        day=cloud('cloudDark',28,19,1.05)+flake(17,42,3.6,"#4AA8D0")+flake(26,47,3.6,"#4AA8D0")+flake(35,42,3.6,"#4AA8D0")+flake(43,47,3.6,"#4AA8D0")),
+        day=cloud('cloudDark',28,19,1.05)+flake(17,42,3.6,"#4AA8D0")+flake(26,47,3.6,"#4AA8D0")+flake(35,42,3.6,"#4AA8D0")+flake(43,47,3.6,"#4AA8D0"),
+        night=cloud('cloudNightDark',28,19,1.05)+flake(17,42,3.6,"#4AA8D0")+flake(26,47,3.6,"#4AA8D0")+flake(35,42,3.6,"#4AA8D0")+flake(43,47,3.6,"#4AA8D0")),
  95:dict(cat="Orage",label="Orage",
         day=cloud('cloudStorm',28,19,1.12)+BOLT95),
  96:dict(cat="Orage",label="Orage avec grêle",
@@ -157,9 +160,9 @@ ICONS = {
         day=cloud('cloudStorm',28,18,1.15)+BOLT99+HAIL99),
 }
 
-DAY_NIGHT = {0,1,2,3,45,48,80,85}
+DAY_NIGHT = {0,1,2,3,45,48,80,81,82,85,86}
 
-index = {"name":"previzio-weather-icons","version":"1.0.0","viewBox":"0 0 56 56","icons":{}}
+index = {"name":"previzio-weather-icons","version":"1.1.0","viewBox":"0 0 56 56","icons":{}}
 
 for code,d in ICONS.items():
     day_svg = wrap(d["day"])
