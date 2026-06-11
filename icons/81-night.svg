@@ -1,0 +1,17 @@
+<svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><defs>
+<radialGradient id="sun" cx="38%" cy="34%" r="70%"><stop offset="0%" stop-color="#FFF3B0"/><stop offset="45%" stop-color="#FFD23F"/><stop offset="100%" stop-color="#F39C12"/></radialGradient>
+<radialGradient id="sunGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFE066" stop-opacity="0.55"/><stop offset="100%" stop-color="#FFE066" stop-opacity="0"/></radialGradient>
+<radialGradient id="moon" cx="38%" cy="34%" r="72%"><stop offset="0%" stop-color="#FDFCF4"/><stop offset="60%" stop-color="#E6E9D8"/><stop offset="100%" stop-color="#C2C6B0"/></radialGradient>
+<radialGradient id="moonGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#DCE6FF" stop-opacity="0.45"/><stop offset="100%" stop-color="#DCE6FF" stop-opacity="0"/></radialGradient>
+<linearGradient id="cloudLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#DCE4EE"/></linearGradient>
+<linearGradient id="cloudMid" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E3EAF3"/><stop offset="100%" stop-color="#B4C1D2"/></linearGradient>
+<linearGradient id="cloudDark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9FAFC1"/><stop offset="100%" stop-color="#6E7E92"/></linearGradient>
+<linearGradient id="cloudStorm" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6C7585"/><stop offset="100%" stop-color="#454C59"/></linearGradient>
+<linearGradient id="cloudNightLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C7D0E2"/><stop offset="100%" stop-color="#97A2BC"/></linearGradient>
+<linearGradient id="cloudNightMid" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9AA5C0"/><stop offset="100%" stop-color="#6E7A98"/></linearGradient>
+<linearGradient id="cloudNightDark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6E7A98"/><stop offset="100%" stop-color="#4A5470"/></linearGradient>
+<linearGradient id="rainDrop" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7FB8E8"/><stop offset="100%" stop-color="#2E73C4"/></linearGradient>
+<linearGradient id="rainDeep" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4A8FD4"/><stop offset="100%" stop-color="#14529A"/></linearGradient>
+<linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE680"/><stop offset="100%" stop-color="#F5A623"/></linearGradient>
+<radialGradient id="hail" cx="38%" cy="34%" r="70%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#C3D4E4"/></radialGradient>
+</defs><g transform="translate(28,19) scale(1.05)"><ellipse cx="0" cy="2" rx="20" ry="11" fill="url(#cloudNightDark)"/><circle cx="-11" cy="-1" r="9" fill="url(#cloudNightDark)"/><circle cx="3" cy="-7" r="11" fill="url(#cloudNightDark)"/><circle cx="13" cy="-2" r="8" fill="url(#cloudNightDark)"/></g><line x1="19" y1="35" x2="17" y2="46" stroke="url(#rainDrop)" stroke-width="2.6" stroke-linecap="round"/><line x1="28" y1="35" x2="26" y2="46" stroke="url(#rainDrop)" stroke-width="2.6" stroke-linecap="round"/><line x1="37" y1="35" x2="35" y2="46" stroke="url(#rainDrop)" stroke-width="2.6" stroke-linecap="round"/></svg>
