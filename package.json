@@ -1,0 +1,27 @@
+{
+  "name": "previzio-weather-icons",
+  "version": "1.0.0",
+  "description": "Jeu d'icônes météo SVG en couleurs calé sur les codes WMO, avec variantes jour/nuit. Conçu pour PrévizIO.",
+  "type": "module",
+  "main": "previzio-icons.js",
+  "exports": {
+    ".": "./previzio-icons.js",
+    "./index.json": "./index.json",
+    "./icons/*": "./icons/*"
+  },
+  "files": [
+    "icons/",
+    "index.json",
+    "previzio-icons.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": ["weather", "icons", "svg", "wmo", "meteo", "previzio", "open-meteo", "day-night"],
+  "author": "Deniz Yilmaz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VOTRE-PSEUDO/previzio-weather-icons.git"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,203 @@
+{
+  "name": "previzio-weather-icons",
+  "version": "1.0.0",
+  "viewBox": "0 0 56 56",
+  "icons": {
+    "0": {
+      "label": "Ciel dégagé",
+      "category": "Dégagé",
+      "day": "00-day.svg",
+      "hasNightVariant": true,
+      "night": "00-night.svg"
+    },
+    "1": {
+      "label": "Principalement dégagé",
+      "category": "Nuageux",
+      "day": "01-day.svg",
+      "hasNightVariant": true,
+      "night": "01-night.svg"
+    },
+    "2": {
+      "label": "Partiellement nuageux",
+      "category": "Nuageux",
+      "day": "02-day.svg",
+      "hasNightVariant": true,
+      "night": "02-night.svg"
+    },
+    "3": {
+      "label": "Couvert",
+      "category": "Nuageux",
+      "day": "03-day.svg",
+      "hasNightVariant": true,
+      "night": "03-night.svg"
+    },
+    "45": {
+      "label": "Brouillard",
+      "category": "Brouillard",
+      "day": "45-day.svg",
+      "hasNightVariant": true,
+      "night": "45-night.svg"
+    },
+    "48": {
+      "label": "Brouillard givrant",
+      "category": "Brouillard",
+      "day": "48-day.svg",
+      "hasNightVariant": true,
+      "night": "48-night.svg"
+    },
+    "51": {
+      "label": "Bruine légère",
+      "category": "Bruine",
+      "day": "51-day.svg",
+      "hasNightVariant": false,
+      "night": "51-day.svg"
+    },
+    "53": {
+      "label": "Bruine modérée",
+      "category": "Bruine",
+      "day": "53-day.svg",
+      "hasNightVariant": false,
+      "night": "53-day.svg"
+    },
+    "55": {
+      "label": "Bruine dense",
+      "category": "Bruine",
+      "day": "55-day.svg",
+      "hasNightVariant": false,
+      "night": "55-day.svg"
+    },
+    "56": {
+      "label": "Bruine verglaçante légère",
+      "category": "Bruine",
+      "day": "56-day.svg",
+      "hasNightVariant": false,
+      "night": "56-day.svg"
+    },
+    "57": {
+      "label": "Bruine verglaçante dense",
+      "category": "Bruine",
+      "day": "57-day.svg",
+      "hasNightVariant": false,
+      "night": "57-day.svg"
+    },
+    "61": {
+      "label": "Pluie légère",
+      "category": "Pluie",
+      "day": "61-day.svg",
+      "hasNightVariant": false,
+      "night": "61-day.svg"
+    },
+    "63": {
+      "label": "Pluie modérée",
+      "category": "Pluie",
+      "day": "63-day.svg",
+      "hasNightVariant": false,
+      "night": "63-day.svg"
+    },
+    "65": {
+      "label": "Pluie forte",
+      "category": "Pluie",
+      "day": "65-day.svg",
+      "hasNightVariant": false,
+      "night": "65-day.svg"
+    },
+    "66": {
+      "label": "Pluie verglaçante légère",
+      "category": "Pluie",
+      "day": "66-day.svg",
+      "hasNightVariant": false,
+      "night": "66-day.svg"
+    },
+    "67": {
+      "label": "Pluie verglaçante forte",
+      "category": "Pluie",
+      "day": "67-day.svg",
+      "hasNightVariant": false,
+      "night": "67-day.svg"
+    },
+    "71": {
+      "label": "Neige légère",
+      "category": "Neige",
+      "day": "71-day.svg",
+      "hasNightVariant": false,
+      "night": "71-day.svg"
+    },
+    "73": {
+      "label": "Neige modérée",
+      "category": "Neige",
+      "day": "73-day.svg",
+      "hasNightVariant": false,
+      "night": "73-day.svg"
+    },
+    "75": {
+      "label": "Neige forte",
+      "category": "Neige",
+      "day": "75-day.svg",
+      "hasNightVariant": false,
+      "night": "75-day.svg"
+    },
+    "77": {
+      "label": "Grains de neige",
+      "category": "Neige",
+      "day": "77-day.svg",
+      "hasNightVariant": false,
+      "night": "77-day.svg"
+    },
+    "80": {
+      "label": "Averses légères",
+      "category": "Averses",
+      "day": "80-day.svg",
+      "hasNightVariant": true,
+      "night": "80-night.svg"
+    },
+    "81": {
+      "label": "Averses modérées",
+      "category": "Averses",
+      "day": "81-day.svg",
+      "hasNightVariant": false,
+      "night": "81-day.svg"
+    },
+    "82": {
+      "label": "Averses violentes",
+      "category": "Averses",
+      "day": "82-day.svg",
+      "hasNightVariant": false,
+      "night": "82-day.svg"
+    },
+    "85": {
+      "label": "Averses de neige légères",
+      "category": "Averses neige",
+      "day": "85-day.svg",
+      "hasNightVariant": true,
+      "night": "85-night.svg"
+    },
+    "86": {
+      "label": "Averses de neige fortes",
+      "category": "Averses neige",
+      "day": "86-day.svg",
+      "hasNightVariant": false,
+      "night": "86-day.svg"
+    },
+    "95": {
+      "label": "Orage",
+      "category": "Orage",
+      "day": "95-day.svg",
+      "hasNightVariant": false,
+      "night": "95-day.svg"
+    },
+    "96": {
+      "label": "Orage avec grêle",
+      "category": "Orage",
+      "day": "96-day.svg",
+      "hasNightVariant": false,
+      "night": "96-day.svg"
+    },
+    "99": {
+      "label": "Orage fort avec grêle",
+      "category": "Orage",
+      "day": "99-day.svg",
+      "hasNightVariant": false,
+      "night": "99-day.svg"
+    }
+  }
+}
