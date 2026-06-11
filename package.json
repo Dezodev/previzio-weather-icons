@@ -17,11 +17,11 @@
     "LICENSE"
   ],
   "keywords": ["weather", "icons", "svg", "wmo", "meteo", "previzio", "open-meteo", "day-night"],
-  "author": "Deniz Yilmaz",
+  "author": "Dezodev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VOTRE-PSEUDO/previzio-weather-icons.git"
+    "url": "git+https://github.com/dezodev/previzio-weather-icons.git"
   },
   "sideEffects": false
 }
